@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+  <main class="container-main">
+    <section class="container-left">
+      <form class="weatherForm">
+        <input type="text" class="cityInput" placerholder="Enter a city">
+        <button type="submit">Search Weather</button>
+      </form>
+
+      <div id="search-history">
+      </div>
+    </section>
+
+    <section class="container-right">
+      <div class="card" style="display: none">
+        <!-- <h1 class="cityDisplay">Miami</h1>
+    <p class="weatherEmoji">☀️</p>
+    <p class="tempDisplay">90°F</p>
+    <p class="humidityDisplay">Humidity: 75%</p>
+    <p class="windDisplay">Wind:</p> -->
+      </div>
+
+
+      <div class="forecastCard" id="forecastParent" style="display: none">
+        <h2>5-Day Forecast</h2>
+        <ul class="forecast-card" id="forecastCard">
+
+          <li class="card" id="card-1">
+          </li>
+
+          <li class="card" id="card-2">
+          </li>
+
+          <li class="card" id="card-3">
+          </li>
+
+          <li class="card" id="card-4">
+          </li>
+
+          <li class="card" id="card-5">
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.11/dayjs.min.js"
+    integrity="sha512-FwNWaxyfy2XlEINoSnZh1JQ5TRRtGow0D6XcmAWmYCRgvqOUTnzCxPc9uF35u5ZEpirk1uhlPVA19tflhvnW1g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>
