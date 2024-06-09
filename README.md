@@ -7,11 +7,11 @@ The searched city is then saved to the local storage, where users can then click
 
 
 ## Screenshots
-[Screenshots](./assets/Weather-Dashboard-SanJose.png)
-[Screenshots](./assets/Weather-Dashboard-Search.png)
+(./assets/Weather-Dashboard-SanJose.png)
+(./assets/Weather-Dashboard-Search.png)
 
 ## Deployed Link
-[Deployed Link]
+https://marissamelo91.github.io/Weather-Dashboard-/
 
 
 ## Credits
